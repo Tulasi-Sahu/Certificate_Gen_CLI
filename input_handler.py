@@ -17,7 +17,7 @@ def parse_date(date_str):
 
 def get_inputs(excel_path, course_name=None, from_date=None, to_date=None, output_format="pdf"):
     username = getpass.getuser()
-    output_dir = f"C:/Users/{username}/Desktop/cgen"
+    output_dir = f"C:/Users/cgen"
     os.makedirs(output_dir, exist_ok=True)
 
     try:
