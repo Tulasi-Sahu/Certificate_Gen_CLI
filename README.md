@@ -19,7 +19,7 @@ pip install .
 
 **Method1:Interactive**
 
-Cgen  <excel path>
+Cgen  excel path
 
 The tool will prompt for:
 
