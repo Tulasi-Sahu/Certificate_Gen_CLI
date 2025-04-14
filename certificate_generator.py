@@ -22,7 +22,7 @@ def create_certificate(student_name, course_name, from_date, to_date, output_dir
         else:
             date_text = f"on {from_date}"
 
-        draw.text((1050, 915), date_text, font=font_details, fill="black", anchor="mm")
+        draw.text((1040, 915), date_text, font=font_details, fill="black", anchor="mm")
 
         if output_format == "pdf":
             image.save(output_path.replace(".png", ".pdf"), "PDF", resolution=100.0)
