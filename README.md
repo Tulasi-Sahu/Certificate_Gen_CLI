@@ -22,11 +22,15 @@ pip install .
 Cgen  <excel path>
 
 The tool will prompt for:
+
 •	Event Name
+
 •	From and To dates
+
 •	Output Format(PNG or PDF)
 
 **Method2:Direct Command-Line Execution**
+
 cgen [-o <pdf|png >] [-f <from-date> [-t <to-date>]] [-n <program name>] <excel path>
 
 
